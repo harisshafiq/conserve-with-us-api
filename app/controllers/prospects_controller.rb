@@ -14,7 +14,7 @@ class ProspectsController < ApplicationController
                               "email_address": prospect_params[:email],
                               "status": "subscribed",
                               "merge_fields": {
-                                "USERTYPE": prospect_params[:type].to_s,
+                                "USERTYPE": prospect_params[:formTypeShowing].to_s,
                                 "FNAME": prospect_params[:first_name].to_s,
                                 "LNAME": prospect_params[:last_name].to_s,
                                 "PHONE": prospect_params[:phone_number].to_s,
@@ -36,11 +36,13 @@ class ProspectsController < ApplicationController
 
   def curate_bad_response(body)
     json = JSON.parse(body)
-    case json['title']
-    when 'Invalid Resource'
-      json['detail']
-    when 'Member Exists'
+
+    if json['title'] == 'Member Exists'
       'A user with this email already exists in our mailing list'
+    elsif json['detail'].match(/email/)
+      json['detail']
+    elsif json['errors'] && json['errors'].dig(0).dig('field') == 'WEBSITE'
+      'Website provided was invalid'
     else
       'Something went wrong. Please try again.'
     end
