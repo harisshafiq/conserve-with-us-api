@@ -17,6 +17,11 @@ gem 'httparty'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Authorization
+gem 'devise'
+gem 'omniauth'
+gem 'devise_token_auth'
+
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
 
@@ -24,7 +29,10 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
   gem 'pry'
+  gem 'awesome-pry'
   gem 'dotenv-rails'
+  gem 'mailcatcher'
+  gem 'annotate'
 end
 
 group :development do
