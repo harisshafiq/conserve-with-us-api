@@ -5,4 +5,7 @@ Rails.application.routes.draw do
 
   get 'wake_up' => 'wake_up#index'
   post 'prospects' => 'prospects#create'
+
+
+  resources :land_trusts
 end
