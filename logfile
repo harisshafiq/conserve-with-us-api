@@ -5,3 +5,45 @@ LOG:  database system is ready to accept connections
 ERROR:  null value in column "name" violates not-null constraint
 DETAIL:  Failing row contains (b8b8f00b-b46b-4b5a-8f83-a21b4ee12b6f, null, null, 2017-02-11 15:42:20.481623, 2017-02-11 15:42:20.481623).
 STATEMENT:  INSERT INTO "land_trusts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"
+ERROR:  null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (6c548d2a-9d73-45e9-b618-5e92d3ccbbd3, null, null, 2017-02-12 20:31:00.214647, 2017-02-12 20:31:00.214647).
+STATEMENT:  INSERT INTO "land_trusts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"
+ERROR:  null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (29d165a1-e526-4d91-8a7f-be910ae6596c, null, null, 2017-02-12 20:32:58.179649, 2017-02-12 20:32:58.179649).
+STATEMENT:  INSERT INTO "land_trusts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"
+ERROR:  null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (b30f938b-26ec-4791-95f9-8d344214ebf3, null, null, 2017-02-12 20:33:47.703373, 2017-02-12 20:33:47.703373).
+STATEMENT:  INSERT INTO "land_trusts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"
+ERROR:  null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (17cd4995-dc8a-45d5-8bfd-71afb4c74073, null, null, 2017-02-12 20:33:57.316758, 2017-02-12 20:33:57.316758).
+STATEMENT:  INSERT INTO "land_trusts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"
+ERROR:  null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (315e2d68-1693-4064-a320-09370025295f, null, null, 2017-02-12 20:34:08.835805, 2017-02-12 20:34:08.835805).
+STATEMENT:  INSERT INTO "land_trusts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"
+ERROR:  null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (5fe25a37-d2a1-4db6-8de3-e9198ba0e70e, null, null, 2017-02-12 20:34:14.843718, 2017-02-12 20:34:14.843718).
+STATEMENT:  INSERT INTO "land_trusts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"
+ERROR:  null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (9ee82ad7-4706-4e29-a89d-0c287499261a, null, null, 2017-02-12 20:34:27.239779, 2017-02-12 20:34:27.239779).
+STATEMENT:  INSERT INTO "land_trusts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"
+ERROR:  null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (2d6574ae-6f8c-4f1b-959a-00ca33804789, null, null, 2017-02-12 20:39:50.556518, 2017-02-12 20:39:50.556518).
+STATEMENT:  INSERT INTO "land_trusts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"
+ERROR:  null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (5d79f315-a5f8-4f1b-b9bf-98f117b4d3e3, null, null, 2017-02-12 20:39:53.438424, 2017-02-12 20:39:53.438424).
+STATEMENT:  INSERT INTO "land_trusts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"
+ERROR:  null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (f1e4b04a-9349-4ce8-b07b-dcf0db81f398, null, null, 2017-02-12 20:39:59.086106, 2017-02-12 20:39:59.086106).
+STATEMENT:  INSERT INTO "land_trusts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"
+ERROR:  null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (fdc96669-b9ec-4ad5-9bca-1bd3bcdf52b1, null, null, 2017-02-12 20:40:03.69144, 2017-02-12 20:40:03.69144).
+STATEMENT:  INSERT INTO "land_trusts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"
+ERROR:  null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (1dcca45a-0a2a-4752-8ea5-9bd1cd9e051e, null, null, 2017-02-12 20:41:02.875283, 2017-02-12 20:41:02.875283).
+STATEMENT:  INSERT INTO "land_trusts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"
+ERROR:  null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (f81c1547-8de4-4044-b4f4-affb4748533c, null, null, 2017-02-12 20:41:16.415695, 2017-02-12 20:41:16.415695).
+STATEMENT:  INSERT INTO "land_trusts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"
+ERROR:  null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (7abdd347-562d-4d82-b392-1ae4e351792d, null, null, 2017-02-12 20:41:27.89648, 2017-02-12 20:41:27.89648).
+STATEMENT:  INSERT INTO "land_trusts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"

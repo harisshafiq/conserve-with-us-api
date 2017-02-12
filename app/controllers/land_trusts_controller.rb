@@ -16,12 +16,18 @@ class LandTrustsController < ApplicationController
   end
 
   def create
-    land_trust = LandTrust.new(params[:name])
+    land_trust = LandTrust.new(land_trust_params)
     land_trust.save
-    render json: land_trust, status 200
+    redirect_to land_trust
   end
+
+  private
+    def land_trust_params
+      params.permit(:name)
+    end
 
   def update
     land_trust = LandTrust.find(params[:id])
+  end
 
 end
